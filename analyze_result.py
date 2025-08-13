@@ -25,7 +25,7 @@ def analyze_results(results_file):
 
         # Top 3 compression speeds (fastest)
         top_speed = sorted(results, key=lambda x: x['speed_score'], reverse=True)[:3]
-        print(" Top 3 Fastest Compression Speeds (seconds):")
+        print(" Top 3 Fastest Compression + Decompression Speeds (seconds):")
         for i, result in enumerate(top_speed, 1):
             total_time = result['avg_compression_time'] + result['avg_decompression_time']
             print(f"    {i}. {total_time:.3f}s total "
