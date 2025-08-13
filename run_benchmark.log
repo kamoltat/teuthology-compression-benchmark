@@ -1,0 +1,963 @@
+$python3 run_benchmark.py
+Starting benchmark with input file: teuthology.log
+Original file size: 314572800
+Testing Single-Threaded Algorithms
+Testing gzip...
+Level low (1):
+Iteration 1/10...
+Compression Time: 2.821s, Size: 23641174
+Verification passed
+Decompression Time: 5.028s
+Iteration 2/10...
+Compression Time: 2.324s, Size: 23641174
+Verification passed
+Decompression Time: 4.207s
+Iteration 3/10...
+Compression Time: 2.415s, Size: 23641174
+Verification passed
+Decompression Time: 3.975s
+Iteration 4/10...
+Compression Time: 3.540s, Size: 23641174
+Verification passed
+Decompression Time: 6.112s
+Iteration 5/10...
+Compression Time: 3.508s, Size: 23641174
+Verification passed
+Decompression Time: 3.780s
+Iteration 6/10...
+Compression Time: 2.454s, Size: 23641174
+Verification passed
+Decompression Time: 4.626s
+Iteration 7/10...
+Compression Time: 2.481s, Size: 23641174
+Verification passed
+Decompression Time: 4.285s
+Iteration 8/10...
+Compression Time: 2.279s, Size: 23641174
+Verification passed
+Decompression Time: 3.713s
+Iteration 9/10...
+Compression Time: 2.502s, Size: 23641174
+Verification passed
+Decompression Time: 3.879s
+Iteration 10/10...
+Compression Time: 2.866s, Size: 23641174
+Verification passed
+Decompression Time: 5.154s
+Level mid (5):
+Iteration 1/10...
+Compression Time: 3.100s, Size: 19203595
+Verification passed
+Decompression Time: 4.118s
+Iteration 2/10...
+Compression Time: 3.156s, Size: 19203595
+Verification passed
+Decompression Time: 3.633s
+Iteration 3/10...
+Compression Time: 3.109s, Size: 19203595
+Verification passed
+Decompression Time: 3.625s
+Iteration 4/10...
+Compression Time: 2.877s, Size: 19203595
+Verification passed
+Decompression Time: 3.470s
+Iteration 5/10...
+Compression Time: 2.892s, Size: 19203595
+Verification passed
+Decompression Time: 3.714s
+Iteration 6/10...
+Compression Time: 2.934s, Size: 19203595
+Verification passed
+Decompression Time: 3.513s
+Iteration 7/10...
+Compression Time: 2.886s, Size: 19203595
+Verification passed
+Decompression Time: 3.487s
+Iteration 8/10...
+Compression Time: 2.869s, Size: 19203595
+Verification passed
+Decompression Time: 3.422s
+Iteration 9/10...
+Compression Time: 2.872s, Size: 19203595
+Verification passed
+Decompression Time: 3.422s
+Iteration 10/10...
+Compression Time: 2.865s, Size: 19203595
+Verification passed
+Decompression Time: 3.505s
+Level high (9):
+Iteration 1/10...
+Compression Time: 19.362s, Size: 14011860
+Verification passed
+Decompression Time: 3.387s
+Iteration 2/10...
+Compression Time: 20.123s, Size: 14011860
+Verification passed
+Decompression Time: 3.529s
+Iteration 3/10...
+Compression Time: 19.439s, Size: 14011860
+Verification passed
+Decompression Time: 3.368s
+Iteration 4/10...
+Compression Time: 19.487s, Size: 14011860
+Verification passed
+Decompression Time: 3.329s
+Iteration 5/10...
+Compression Time: 19.630s, Size: 14011860
+Verification passed
+Decompression Time: 3.376s
+Iteration 6/10...
+Compression Time: 19.364s, Size: 14011860
+Verification passed
+Decompression Time: 3.501s
+Iteration 7/10...
+Compression Time: 19.297s, Size: 14011860
+Verification passed
+Decompression Time: 3.398s
+Iteration 8/10...
+Compression Time: 19.372s, Size: 14011860
+Verification passed
+Decompression Time: 3.371s
+Iteration 9/10...
+Compression Time: 19.792s, Size: 14011860
+Verification passed
+Decompression Time: 3.424s
+Iteration 10/10...
+Compression Time: 19.515s, Size: 14011860
+Verification passed
+Decompression Time: 3.389s
+Testing brotli...
+Level low (1):
+Iteration 1/10...
+Compression Time: 1.043s, Size: 22222725
+Verification passed
+Decompression Time: 1.428s
+Iteration 2/10...
+Compression Time: 1.049s, Size: 22222725
+Verification passed
+Decompression Time: 1.347s
+Iteration 3/10...
+Compression Time: 1.031s, Size: 22222725
+Verification passed
+Decompression Time: 1.294s
+Iteration 4/10...
+Compression Time: 1.035s, Size: 22222725
+Verification passed
+Decompression Time: 1.286s
+Iteration 5/10...
+Compression Time: 1.131s, Size: 22222725
+Verification passed
+Decompression Time: 1.279s
+Iteration 6/10...
+Compression Time: 1.038s, Size: 22222725
+Verification passed
+Decompression Time: 1.375s
+Iteration 7/10...
+Compression Time: 1.248s, Size: 22222725
+Verification passed
+Decompression Time: 1.450s
+Iteration 8/10...
+Compression Time: 1.047s, Size: 22222725
+Verification passed
+Decompression Time: 1.343s
+Iteration 9/10...
+Compression Time: 1.070s, Size: 22222725
+Verification passed
+Decompression Time: 1.446s
+Iteration 10/10...
+Compression Time: 1.036s, Size: 22222725
+Verification passed
+Decompression Time: 1.298s
+Level mid (6):
+Iteration 1/10...
+Compression Time: 6.433s, Size: 15360514
+Verification passed
+Decompression Time: 1.615s
+Iteration 2/10...
+Compression Time: 6.424s, Size: 15360514
+Verification passed
+Decompression Time: 1.162s
+Iteration 3/10...
+Compression Time: 6.409s, Size: 15360514
+Verification passed
+Decompression Time: 1.127s
+Iteration 4/10...
+Compression Time: 6.463s, Size: 15360514
+Verification passed
+Decompression Time: 1.104s
+Iteration 5/10...
+Compression Time: 6.572s, Size: 15360514
+Verification passed
+Decompression Time: 1.128s
+Iteration 6/10...
+Compression Time: 6.398s, Size: 15360514
+Verification passed
+Decompression Time: 1.112s
+Iteration 7/10...
+Compression Time: 6.394s, Size: 15360514
+Verification passed
+Decompression Time: 1.112s
+Iteration 8/10...
+Compression Time: 6.475s, Size: 15360514
+Verification passed
+Decompression Time: 1.103s
+Iteration 9/10...
+Compression Time: 6.430s, Size: 15360514
+Verification passed
+Decompression Time: 1.104s
+Iteration 10/10...
+Compression Time: 6.383s, Size: 15360514
+Verification passed
+Decompression Time: 1.151s
+Level high (11):
+Iteration 1/10...
+Compression timeout (90s) - assigning penalty
+Iteration 2/10...
+Compression timeout (90s) - assigning penalty
+Iteration 3/10...
+Compression timeout (90s) - assigning penalty
+Iteration 4/10...
+Compression timeout (90s) - assigning penalty
+Iteration 5/10...
+Compression timeout (90s) - assigning penalty
+Iteration 6/10...
+Compression timeout (90s) - assigning penalty
+Iteration 7/10...
+Compression timeout (90s) - assigning penalty
+Iteration 8/10...
+Compression timeout (90s) - assigning penalty
+Iteration 9/10...
+Compression timeout (90s) - assigning penalty
+Iteration 10/10...
+Compression timeout (90s) - assigning penalty
+Testing xz...
+Level low (1):
+Iteration 1/10...
+Compression Time: 8.584s, Size: 16080404
+Verification passed
+Decompression Time: 8.903s
+Iteration 2/10...
+Compression Time: 8.487s, Size: 16080404
+Verification passed
+Decompression Time: 8.184s
+Iteration 3/10...
+Compression Time: 8.478s, Size: 16080404
+Verification passed
+Decompression Time: 8.177s
+Iteration 4/10...
+Compression Time: 8.852s, Size: 16080404
+Verification passed
+Decompression Time: 8.322s
+Iteration 5/10...
+Compression Time: 8.862s, Size: 16080404
+Verification passed
+Decompression Time: 8.502s
+Iteration 6/10...
+Compression Time: 8.635s, Size: 16080404
+Verification passed
+Decompression Time: 8.661s
+Iteration 7/10...
+Compression Time: 9.636s, Size: 16080404
+Verification passed
+Decompression Time: 8.926s
+Iteration 8/10...
+Compression Time: 8.632s, Size: 16080404
+Verification passed
+Decompression Time: 8.916s
+Iteration 9/10...
+Compression Time: 9.730s, Size: 16080404
+Verification passed
+Decompression Time: 8.414s
+Iteration 10/10...
+Compression Time: 8.741s, Size: 16080404
+Verification passed
+Decompression Time: 8.296s
+Level mid (6):
+Iteration 1/10...
+Compression Time: 83.600s, Size: 14084736
+Verification passed
+Decompression Time: 8.895s
+Iteration 2/10...
+Compression Time: 83.790s, Size: 14084736
+Verification passed
+Decompression Time: 8.542s
+Iteration 3/10...
+Compression Time: 83.756s, Size: 14084736
+Verification passed
+Decompression Time: 7.984s
+Iteration 4/10...
+Compression Time: 83.358s, Size: 14084736
+Verification passed
+Decompression Time: 8.044s
+Iteration 5/10...
+Compression Time: 83.176s, Size: 14084736
+Verification passed
+Decompression Time: 8.487s
+Iteration 6/10...
+Compression Time: 83.382s, Size: 14084736
+Verification passed
+Decompression Time: 8.046s
+Iteration 7/10...
+Compression Time: 83.410s, Size: 14084736
+Verification passed
+Decompression Time: 8.556s
+Iteration 8/10...
+Compression Time: 83.613s, Size: 14084736
+Verification passed
+Decompression Time: 8.108s
+Iteration 9/10...
+Compression Time: 83.360s, Size: 14084736
+Verification passed
+Decompression Time: 8.293s
+Iteration 10/10...
+Compression Time: 83.704s, Size: 14084736
+Verification passed
+Decompression Time: 8.177s
+Level high (9):
+Iteration 1/10...
+Compression Time: 84.472s, Size: 13610824
+Verification passed
+Decompression Time: 7.968s
+Iteration 2/10...
+Compression Time: 82.350s, Size: 13610824
+Verification passed
+Decompression Time: 8.170s
+Iteration 3/10...
+Compression Time: 82.834s, Size: 13610824
+Verification passed
+Decompression Time: 7.971s
+Iteration 4/10...
+Compression Time: 83.188s, Size: 13610824
+Verification passed
+Decompression Time: 8.353s
+Iteration 5/10...
+Compression Time: 82.388s, Size: 13610824
+Verification passed
+Decompression Time: 8.846s
+Iteration 6/10...
+Compression Time: 86.642s, Size: 13610824
+Verification passed
+Decompression Time: 8.215s
+Iteration 7/10...
+Compression Time: 85.814s, Size: 13610824
+Verification passed
+Decompression Time: 8.017s
+Iteration 8/10...
+Compression Time: 87.349s, Size: 13610824
+Verification passed
+Decompression Time: 8.807s
+Iteration 9/10...
+Compression Time: 84.328s, Size: 13610824
+Verification passed
+Decompression Time: 8.281s
+Iteration 10/10...
+Compression Time: 84.792s, Size: 13610824
+Verification passed
+Decompression Time: 8.191s
+Testing lz4...
+Level low (1):
+Iteration 1/10...
+Compression Time: 0.947s, Size: 39607375
+Verification passed
+Decompression Time: 2.495s
+Iteration 2/10...
+Compression Time: 0.900s, Size: 39607375
+Verification passed
+Decompression Time: 2.544s
+Iteration 3/10...
+Compression Time: 1.012s, Size: 39607375
+Verification passed
+Decompression Time: 2.303s
+Iteration 4/10...
+Compression Time: 0.886s, Size: 39607375
+Verification passed
+Decompression Time: 2.307s
+Iteration 5/10...
+Compression Time: 0.908s, Size: 39607375
+Verification passed
+Decompression Time: 2.369s
+Iteration 6/10...
+Compression Time: 0.889s, Size: 39607375
+Verification passed
+Decompression Time: 2.651s
+Iteration 7/10...
+Compression Time: 0.930s, Size: 39607375
+Verification passed
+Decompression Time: 2.484s
+Iteration 8/10...
+Compression Time: 0.886s, Size: 39607375
+Verification passed
+Decompression Time: 2.406s
+Iteration 9/10...
+Compression Time: 0.886s, Size: 39607375
+Verification passed
+Decompression Time: 2.257s
+Iteration 10/10...
+Compression Time: 0.890s, Size: 39607375
+Verification passed
+Decompression Time: 2.321s
+Level mid (6):
+Iteration 1/10...
+Compression Time: 6.606s, Size: 21249388
+Verification passed
+Decompression Time: 2.286s
+Iteration 2/10...
+Compression Time: 6.770s, Size: 21249388
+Verification passed
+Decompression Time: 2.271s
+Iteration 3/10...
+Compression Time: 6.650s, Size: 21249388
+Verification passed
+Decompression Time: 2.219s
+Iteration 4/10...
+Compression Time: 6.635s, Size: 21249388
+Verification passed
+Decompression Time: 2.214s
+Iteration 5/10...
+Compression Time: 6.647s, Size: 21249388
+Verification passed
+Decompression Time: 2.381s
+Iteration 6/10...
+Compression Time: 6.584s, Size: 21249388
+Verification passed
+Decompression Time: 2.334s
+Iteration 7/10...
+Compression Time: 6.611s, Size: 21249388
+Verification passed
+Decompression Time: 2.352s
+Iteration 8/10...
+Compression Time: 6.712s, Size: 21249388
+Verification passed
+Decompression Time: 2.250s
+Iteration 9/10...
+Compression Time: 6.807s, Size: 21249388
+Verification passed
+Decompression Time: 2.267s
+Iteration 10/10...
+Compression Time: 6.655s, Size: 21249388
+Verification passed
+Decompression Time: 2.610s
+Level high (9):
+Iteration 1/10...
+Compression Time: 18.576s, Size: 19666676
+Verification passed
+Decompression Time: 2.293s
+Iteration 2/10...
+Compression Time: 18.051s, Size: 19666676
+Verification passed
+Decompression Time: 2.232s
+Iteration 3/10...
+Compression Time: 18.508s, Size: 19666676
+Verification passed
+Decompression Time: 2.349s
+Iteration 4/10...
+Compression Time: 18.374s, Size: 19666676
+Verification passed
+Decompression Time: 2.235s
+Iteration 5/10...
+Compression Time: 18.204s, Size: 19666676
+Verification passed
+Decompression Time: 2.229s
+Iteration 6/10...
+Compression Time: 18.199s, Size: 19666676
+Verification passed
+Decompression Time: 2.255s
+Iteration 7/10...
+Compression Time: 18.541s, Size: 19666676
+Verification passed
+Decompression Time: 2.316s
+Iteration 8/10...
+Compression Time: 18.193s, Size: 19666676
+Verification passed
+Decompression Time: 2.824s
+Iteration 9/10...
+Compression Time: 18.084s, Size: 19666676
+Verification passed
+Decompression Time: 2.359s
+Iteration 10/10...
+Compression Time: 18.276s, Size: 19666676
+Verification passed
+Decompression Time: 2.220s
+Testing zstd_single_threaded...
+Level low (1):
+Iteration 1/10...
+Compression Time: 0.758s, Size: 21151729
+Verification passed
+Decompression Time: 1.418s
+Iteration 2/10...
+Compression Time: 0.740s, Size: 21151729
+Verification passed
+Decompression Time: 1.565s
+Iteration 3/10...
+Compression Time: 0.730s, Size: 21151729
+Verification passed
+Decompression Time: 1.755s
+Iteration 4/10...
+Compression Time: 0.732s, Size: 21151729
+Verification passed
+Decompression Time: 1.368s
+Iteration 5/10...
+Compression Time: 0.713s, Size: 21151729
+Verification passed
+Decompression Time: 1.281s
+Iteration 6/10...
+Compression Time: 0.731s, Size: 21151729
+Verification passed
+Decompression Time: 1.344s
+Iteration 7/10...
+Compression Time: 0.724s, Size: 21151729
+Verification passed
+Decompression Time: 1.236s
+Iteration 8/10...
+Compression Time: 0.744s, Size: 21151729
+Verification passed
+Decompression Time: 1.431s
+Iteration 9/10...
+Compression Time: 0.782s, Size: 21151729
+Verification passed
+Decompression Time: 1.272s
+Iteration 10/10...
+Compression Time: 0.719s, Size: 21151729
+Verification passed
+Decompression Time: 1.259s
+Level mid (10):
+Iteration 1/10...
+Compression Time: 7.614s, Size: 14933182
+Verification passed
+Decompression Time: 1.226s
+Iteration 2/10...
+Compression Time: 7.533s, Size: 14933182
+Verification passed
+Decompression Time: 1.246s
+Iteration 3/10...
+Compression Time: 7.543s, Size: 14933182
+Verification passed
+Decompression Time: 1.324s
+Iteration 4/10...
+Compression Time: 7.651s, Size: 14933182
+Verification passed
+Decompression Time: 1.303s
+Iteration 5/10...
+Compression Time: 7.821s, Size: 14933182
+Verification passed
+Decompression Time: 1.225s
+Iteration 6/10...
+Compression Time: 7.611s, Size: 14933182
+Verification passed
+Decompression Time: 1.221s
+Iteration 7/10...
+Compression Time: 7.575s, Size: 14933182
+Verification passed
+Decompression Time: 1.218s
+Iteration 8/10...
+Compression Time: 7.582s, Size: 14933182
+Verification passed
+Decompression Time: 1.235s
+Iteration 9/10...
+Compression Time: 7.554s, Size: 14933182
+Verification passed
+Decompression Time: 1.228s
+Iteration 10/10...
+Compression Time: 7.562s, Size: 14933182
+Verification passed
+Decompression Time: 1.438s
+Level high (19):
+Iteration 1/10...
+Compression timeout (90s) - assigning penalty
+Iteration 2/10...
+Compression timeout (90s) - assigning penalty
+Iteration 3/10...
+Compression timeout (90s) - assigning penalty
+Iteration 4/10...
+Compression timeout (90s) - assigning penalty
+Iteration 5/10...
+Compression timeout (90s) - assigning penalty
+Iteration 6/10...
+Compression timeout (90s) - assigning penalty
+Iteration 7/10...
+Compression timeout (90s) - assigning penalty
+Iteration 8/10...
+Compression timeout (90s) - assigning penalty
+Iteration 9/10...
+Compression timeout (90s) - assigning penalty
+Iteration 10/10...
+Compression timeout (90s) - assigning penalty
+Testing Multi-Threaded Algorithms
+Testing zstd_multithreaded...
+Level low (1):
+Iteration 1/10...
+Compression Time: 0.454s, Size: 21151729
+Verification passed
+Decompression Time: 1.762s
+Iteration 2/10...
+Compression Time: 0.447s, Size: 21151729
+Verification passed
+Decompression Time: 1.954s
+Iteration 3/10...
+Compression Time: 0.427s, Size: 21151729
+Verification passed
+Decompression Time: 1.216s
+Iteration 4/10...
+Compression Time: 0.439s, Size: 21151729
+Verification passed
+Decompression Time: 1.375s
+Iteration 5/10...
+Compression Time: 0.450s, Size: 21151729
+Verification passed
+Decompression Time: 1.518s
+Iteration 6/10...
+Compression Time: 0.451s, Size: 21151729
+Verification passed
+Decompression Time: 1.341s
+Iteration 7/10...
+Compression Time: 0.479s, Size: 21151729
+Verification passed
+Decompression Time: 1.283s
+Iteration 8/10...
+Compression Time: 0.444s, Size: 21151729
+Verification passed
+Decompression Time: 1.743s
+Iteration 9/10...
+Compression Time: 0.437s, Size: 21151729
+Verification passed
+Decompression Time: 1.209s
+Iteration 10/10...
+Compression Time: 0.438s, Size: 21151729
+Verification passed
+Decompression Time: 1.300s
+Level mid (10):
+Iteration 1/10...
+Compression Time: 1.860s, Size: 14933182
+Verification passed
+Decompression Time: 1.253s
+Iteration 2/10...
+Compression Time: 1.855s, Size: 14933182
+Verification passed
+Decompression Time: 1.289s
+Iteration 3/10...
+Compression Time: 1.874s, Size: 14933182
+Verification passed
+Decompression Time: 1.324s
+Iteration 4/10...
+Compression Time: 1.879s, Size: 14933182
+Verification passed
+Decompression Time: 1.275s
+Iteration 5/10...
+Compression Time: 1.959s, Size: 14933182
+Verification passed
+Decompression Time: 1.283s
+Iteration 6/10...
+Compression Time: 1.929s, Size: 14933182
+Verification passed
+Decompression Time: 1.207s
+Iteration 7/10...
+Compression Time: 1.915s, Size: 14933182
+Verification passed
+Decompression Time: 1.356s
+Iteration 8/10...
+Compression Time: 1.832s, Size: 14933182
+Verification passed
+Decompression Time: 1.265s
+Iteration 9/10...
+Compression Time: 1.913s, Size: 14933182
+Verification passed
+Decompression Time: 1.226s
+Iteration 10/10...
+Compression Time: 1.835s, Size: 14933182
+Verification passed
+Decompression Time: 1.270s
+Level high (19):
+Iteration 1/10...
+Compression Time: 77.535s, Size: 12293536
+Verification passed
+Decompression Time: 2.022s
+Iteration 2/10...
+Compression Time: 79.592s, Size: 12293536
+Verification passed
+Decompression Time: 1.300s
+Iteration 3/10...
+Compression Time: 81.886s, Size: 12293536
+Verification passed
+Decompression Time: 1.529s
+Iteration 4/10...
+Compression Time: 78.965s, Size: 12293536
+Verification passed
+Decompression Time: 1.325s
+Iteration 5/10...
+Compression Time: 78.619s, Size: 12293536
+Verification passed
+Decompression Time: 1.251s
+Iteration 6/10...
+Compression Time: 81.493s, Size: 12293536
+Verification passed
+Decompression Time: 1.220s
+Iteration 7/10...
+Compression Time: 81.485s, Size: 12293536
+Verification passed
+Decompression Time: 1.263s
+Iteration 8/10...
+Compression Time: 86.087s, Size: 12293536
+Verification passed
+Decompression Time: 1.428s
+Iteration 9/10...
+Compression Time: 87.553s, Size: 12293536
+Verification passed
+Decompression Time: 1.504s
+Iteration 10/10...
+Compression Time: 81.823s, Size: 12293536
+Verification passed
+Decompression Time: 1.404s
+Testing pigz...
+Level low (1):
+Iteration 1/10...
+Compression Time: 1.762s, Size: 23702738
+Verification passed
+Decompression Time: 3.706s
+Iteration 2/10...
+Compression Time: 1.691s, Size: 23702738
+Verification passed
+Decompression Time: 4.076s
+Iteration 3/10...
+Compression Time: 1.523s, Size: 23702738
+Verification passed
+Decompression Time: 3.665s
+Iteration 4/10...
+Compression Time: 1.606s, Size: 23702738
+Verification passed
+Decompression Time: 3.719s
+Iteration 5/10...
+Compression Time: 1.822s, Size: 23702738
+Verification passed
+Decompression Time: 3.882s
+Iteration 6/10...
+Compression Time: 1.614s, Size: 23702738
+Verification passed
+Decompression Time: 4.059s
+Iteration 7/10...
+Compression Time: 1.484s, Size: 23702738
+Verification passed
+Decompression Time: 3.577s
+Iteration 8/10...
+Compression Time: 1.504s, Size: 23702738
+Verification passed
+Decompression Time: 3.658s
+Iteration 9/10...
+Compression Time: 1.630s, Size: 23702738
+Verification passed
+Decompression Time: 3.541s
+Iteration 10/10...
+Compression Time: 1.837s, Size: 23702738
+Verification passed
+Decompression Time: 3.751s
+Level mid (6):
+Iteration 1/10...
+Compression Time: 2.036s, Size: 16234202
+Verification passed
+Decompression Time: 4.172s
+Iteration 2/10...
+Compression Time: 1.959s, Size: 16234202
+Verification passed
+Decompression Time: 4.066s
+Iteration 3/10...
+Compression Time: 1.720s, Size: 16234202
+Verification passed
+Decompression Time: 3.868s
+Iteration 4/10...
+Compression Time: 1.803s, Size: 16234202
+Verification passed
+Decompression Time: 3.859s
+Iteration 5/10...
+Compression Time: 1.711s, Size: 16234202
+Verification passed
+Decompression Time: 3.787s
+Iteration 6/10...
+Compression Time: 1.799s, Size: 16234202
+Verification passed
+Decompression Time: 4.223s
+Iteration 7/10...
+Compression Time: 1.731s, Size: 16234202
+Verification passed
+Decompression Time: 3.656s
+Iteration 8/10...
+Compression Time: 1.853s, Size: 16234202
+Verification passed
+Decompression Time: 3.729s
+Iteration 9/10...
+Compression Time: 1.723s, Size: 16234202
+Verification passed
+Decompression Time: 3.563s
+Iteration 10/10...
+Compression Time: 1.753s, Size: 16234202
+Verification passed
+Decompression Time: 3.885s
+Level high (9):
+Iteration 1/10...
+Compression Time: 3.318s, Size: 14026175
+Verification passed
+Decompression Time: 3.532s
+Iteration 2/10...
+Compression Time: 3.227s, Size: 14026175
+Verification passed
+Decompression Time: 3.563s
+Iteration 3/10...
+Compression Time: 3.138s, Size: 14026175
+Verification passed
+Decompression Time: 3.528s
+Iteration 4/10...
+Compression Time: 3.100s, Size: 14026175
+Verification passed
+Decompression Time: 3.633s
+Iteration 5/10...
+Compression Time: 3.510s, Size: 14026175
+Verification passed
+Decompression Time: 3.687s
+Iteration 6/10...
+Compression Time: 3.509s, Size: 14026175
+Verification passed
+Decompression Time: 3.881s
+Iteration 7/10...
+Compression Time: 3.501s, Size: 14026175
+Verification passed
+Decompression Time: 3.590s
+Iteration 8/10...
+Compression Time: 3.609s, Size: 14026175
+Verification passed
+Decompression Time: 3.720s
+Iteration 9/10...
+Compression Time: 3.192s, Size: 14026175
+Verification passed
+Decompression Time: 3.701s
+Iteration 10/10...
+Compression Time: 3.532s, Size: 14026175
+Verification passed
+Decompression Time: 3.980s
+Testing pbzip2...
+Level low (1):
+Iteration 1/10...
+Compression Time: 10.178s, Size: 10492502
+Verification passed
+Decompression Time: 1.527s
+Iteration 2/10...
+Compression Time: 10.188s, Size: 10492502
+Verification passed
+Decompression Time: 1.590s
+Iteration 3/10...
+Compression Time: 10.452s, Size: 10492502
+Verification passed
+Decompression Time: 1.380s
+Iteration 4/10...
+Compression Time: 10.901s, Size: 10492502
+Verification passed
+Decompression Time: 1.551s
+Iteration 5/10...
+Compression Time: 11.234s, Size: 10492502
+Verification passed
+Decompression Time: 1.577s
+Iteration 6/10...
+Compression Time: 9.520s, Size: 10492502
+Verification passed
+Decompression Time: 1.547s
+Iteration 7/10...
+Compression Time: 9.368s, Size: 10492502
+Verification passed
+Decompression Time: 1.369s
+Iteration 8/10...
+Compression Time: 9.638s, Size: 10492502
+Verification passed
+Decompression Time: 1.318s
+Iteration 9/10...
+Compression Time: 9.579s, Size: 10492502
+Verification passed
+Decompression Time: 1.361s
+Iteration 10/10...
+Compression Time: 9.418s, Size: 10492502
+Verification passed
+Decompression Time: 1.417s
+Level mid (6):
+Iteration 1/10...
+Compression Time: 16.394s, Size: 9029407
+Verification passed
+Decompression Time: 3.501s
+Iteration 2/10...
+Compression Time: 16.239s, Size: 9029407
+Verification passed
+Decompression Time: 3.869s
+Iteration 3/10...
+Compression Time: 15.637s, Size: 9029407
+Verification passed
+Decompression Time: 3.819s
+Iteration 4/10...
+Compression Time: 16.478s, Size: 9029407
+Verification passed
+Decompression Time: 3.931s
+Iteration 5/10...
+Compression Time: 16.546s, Size: 9029407
+Verification passed
+Decompression Time: 3.958s
+Iteration 6/10...
+Compression Time: 17.400s, Size: 9029407
+Verification passed
+Decompression Time: 3.640s
+Iteration 7/10...
+Compression Time: 15.597s, Size: 9029407
+Verification passed
+Decompression Time: 3.463s
+Iteration 8/10...
+Compression Time: 15.787s, Size: 9029407
+Verification passed
+Decompression Time: 3.477s
+Iteration 9/10...
+Compression Time: 15.163s, Size: 9029407
+Verification passed
+Decompression Time: 3.561s
+Iteration 10/10...
+Compression Time: 21.088s, Size: 9029407
+Verification passed
+Decompression Time: 3.672s
+Level high (9):
+Iteration 1/10...
+Compression Time: 20.529s, Size: 8801595
+Verification passed
+Decompression Time: 5.189s
+Iteration 2/10...
+Compression Time: 19.575s, Size: 8801595
+Verification passed
+Decompression Time: 5.481s
+Iteration 3/10...
+Compression Time: 21.009s, Size: 8801595
+Verification passed
+Decompression Time: 6.242s
+Iteration 4/10...
+Compression Time: 21.236s, Size: 8801595
+Verification passed
+Decompression Time: 5.361s
+Iteration 5/10...
+Compression Time: 21.027s, Size: 8801595
+Verification passed
+Decompression Time: 5.686s
+Iteration 6/10...
+Compression Time: 22.391s, Size: 8801595
+Verification passed
+Decompression Time: 5.721s
+Iteration 7/10...
+Compression Time: 19.822s, Size: 8801595
+Verification passed
+Decompression Time: 5.705s
+Iteration 8/10...
+Compression Time: 20.803s, Size: 8801595
+Verification passed
+Decompression Time: 5.325s
+Iteration 9/10...
+Compression Time: 20.520s, Size: 8801595
+Verification passed
+Decompression Time: 5.750s
+Iteration 10/10...
+Compression Time: 20.586s, Size: 8801595
+Verification passed
+Decompression Time: 5.268s
+Results saved:
+JSON: results_1754595284.json
+CSV: results_1754595284.csv
+Total tests: 24
+
+Test Finish!

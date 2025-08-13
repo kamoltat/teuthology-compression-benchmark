@@ -1,0 +1,15 @@
+# Test files
+teuthology.log
+
+# Compressed test files
+*_compressed.*
+*_decompressed.*
+*.gz
+*.bz2
+*.xz
+*.zst
+*.br
+*.lz4
+
+# Container artifacts
+.dockerignore
